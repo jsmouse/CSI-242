@@ -61,10 +61,10 @@ function setStyle(){
      
     document.styleSheets[document.styleSheets.length-1].insertRule(
         "div#styleLocation input {\
-        background-color: rgba(64, 94, 186, 0.9);\
+        background-color: #3f51b5;\
         border: 3px solid rgba(0, 24, 123, 0.9);\
         cursor: url(/img/480px-Lighthouse_icon.svg.png), pointer;\
-        color: #B22222;\
+        color: #f44336;\
         font-size: 1.2em;\
         height: 50px;\
         margin: 5px 10px;\
