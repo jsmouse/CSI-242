@@ -1,18 +1,18 @@
 ul li {
-    list-style-image: url(/img/lighthouse_icon.svg);
+    list-style-image: url(img/lighthouse_icon.svg);
    
 }
 
 html
 {
-    cursor: url(/img/480px-Lighthouse_icon.svg.png), pointer;
+    cursor: url(img/480px-Lighthouse_icon.svg.png), pointer;
     
 }
 
 table, th, td {
     box-sizing: border-box;
     border: 1px solid black;
-    background-color: #7fffd4;
+    background-color: #3f51b5;
     color: black;
     border-spacing: 0px;
     table-layout: auto;
