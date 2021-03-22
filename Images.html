@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Images</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/Scripts/imageGalleryScript.js" async></script>
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="Index.html" type="text/html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">About</a>
+            <a href="Images.html" type="text/html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Images</a>
+            <a href="Videos.html" type="text/html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+            <a href="More Info.html" type="text/html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">More Info</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="Index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+            <a href="Images.html" class="w3-bar-item w3-button w3-padding-large">Images</a>
+            <a href="Videos.html" class="w3-bar-item w3-button w3-padding-large">Videos</a>
+            <a href="More Info.html" class="w3-bar-item w3-button w3-padding-large">More Info</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-indigo w3-center w3-padding-32">
+        <h1 class="w3-margin w3-jumbo">United States Lighthouses <br /> Image Gallery</h1>
+      
+
+    </header>
+
+    <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="/img/Boston_Light_Dusk.jpg" width="430" height="400" alt="Boston Light in the evening">
+                <div class="w3-container">
+                    <h5 id="caption">Boston Light in the evening</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="/img/Boston Light at Night.jpg" width="430" height="400" alt="Boston Light lit up at night">
+                <div class="w3-container">
+                    <h5 id="caption">Boston Light lit up at night</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="/img/Fresnel_Lens_Boston_Light.jpg" width="430" height="400" alt = "Close-up of the lens used in Boston Light">
+                <div class="w3-container">
+                    <h5 id="caption">Close-up of the lens used in Boston Light</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="/img/Big Bay point Lighthouse.jpg" width="430" height="400" alt="Big Bay Point Lighthouse (MI)">
+                <div class="w3-container">
+                    <h5 id="caption">Big Bay Point Lighthouse (MI)</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="/img/Crisp Point Lighthouse.jpg" width="430" height="400" alt="Crisp Point Lighthouse (MI)" >
+                <div class="w3-container">
+                    <h5 id="caption">Crisp Point Lighthouse (MI)</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-third">
+            <div class="w3-card">
+                <img src="/img/Heceta_Head_Lighthouse_1.jpg"  width="430" height="400" alt="Heceta Head Lighthouse (OR)">
+                <div class="w3-container">
+                    <h5 id="caption">Heceta Head Lighthouse (OR)</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-center w3-opacity">
+        <div class="w3-hide-medium w3-padding-16">
+            <p>
+                CC0 1.0 Universal Images Used
+            </p>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+</html>

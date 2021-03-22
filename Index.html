@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/Scripts/script.js" async></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="Index.html" type="text/html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">About</a>
+            <a href="Images.html" type="text/html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Images</a>
+            <a href="Videos.html" type="text/html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+            <a href="More Info.html" type="text/html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">More Info</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="Index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+            <a href="Images.html" class="w3-bar-item w3-button w3-padding-large">Images</a>
+            <a href="Videos.html" class="w3-bar-item w3-button w3-padding-large">Videos</a>
+            <a href="More Info.html" class="w3-bar-item w3-button w3-padding-large">More Info</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-indigo w3-center w3-padding-32">
+        <h1 class="w3-margin w3-jumbo">United States Lighthouses</h1>
+       
+        
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>A brief history of United States lighthouses</h1>
+               
+                <p class="w3-text-black">
+                    The first lighthouse established in America was on Little Brewster Island in Boston 
+                    Harbor and was first lit on September 14, 1716. A tonnage tax of 1 penny 
+                    per ton on all vessels, except coasters, moving in or out of Boston Harbor, paid for 
+                    maintaining the light. The first keeper, George Worthylake, with a salary of £50 a year, also acted as 
+                    pilot for vessels entering the harbor. In 1718 he and his wife and daughter, with two men, were drowned 
+                    when the lighthouse boat capsized as they were returning to the island from Boston. Young Benjamin Franklin, 
+                    then a printer in Boston, wrote a ballad about the incident entitled "Lighthouse Tragedy" and sold it 
+                    on the streets of Boston.
+
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>History continued</h1>
+
+                <p class="w3-text-black">
+                    In 1774 the British took over the island and in 1775 the harbor was blocked and the
+                    lighthouse became useless. On July 20, 1775, a small detachment of American troops
+                    under Major Voss visited the island and burned the wooden parts of the lighthouse.
+                    The British began to repair it under a marine guard, when General George Washington
+                    dispatched Major Tupper with 300 men in whale-boats on July 31, 1775, who defeated
+                    the guard and destroyed the repair work done. They were intercepted on leaving by
+                    British small boats and attacked. A direct hit on one of the English boats by an
+                    American field piece on Nantasket Head, caused the British to retire to their boats
+                    with comparatively heavy losses. Only one American was killed. Major Tupper and his
+                    men were commended by General Washington. When the British left Boston, March 17, 1776,
+                    a number of their ships remained in the harbor. On June 13, 1776, American soldiers
+                    landed on Long Island, Boston Harbor, and at Nantasket Hill and opened fire on this
+                    fleet who were soon at their mercy. Before sailing away, the British sent a boat ashore
+                    at Boston Light and left a time charge which blew up the lighthouse. The top of the old
+                    lighthouse was used to supply ladles for American cannon.
+                </p>
+            </div>
+            <div class="w3-third w3-center">
+                <i class="fa fa-life-ring w3-padding-64 w3-text-red"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-center w3-opacity">
+        <div class="w3-medium w3-padding-16">
+            <p>
+                Content provided by www.uscg.mil <br>
+                CC0 1.0 Universal Images Used
+            </p>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+</html>
