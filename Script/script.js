@@ -10,8 +10,7 @@ var calendarStyle = document.createElement("link");
     calendarStyle.setAttribute("rel", "stylesheet");
     calendarStyle.setAttribute("href", "ss_insert.css");
     document.head.appendChild(calendarStyle);
-    calendarStyle.setAttribute("disabled", "disabled");
-    calendarStyle.disabled = true;
+
     
 //creating new date object
 var date = new Date();
